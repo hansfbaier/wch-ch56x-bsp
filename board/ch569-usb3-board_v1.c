@@ -89,3 +89,52 @@ void bsp_uled_off(void)
 {
 	GPIOB_ResetBits(BSP_LED1_PIN);
 }
+
+/*******************************************************************************
+ * @fn     bsp_led1_on
+ *
+ * @brief  Set LED1 to ON (Light ON)
+ *
+ * @return None
+ **/
+void bsp_led1_on(void)
+{
+	GPIOB_SetBits(BSP_LED1_PIN);
+}
+
+/*******************************************************************************
+ * @fn     bsp_led1_off
+ *
+ * @brief  Set LED1 to OFF (Light OFF)
+ *
+ * @return None
+ **/
+void bsp_led1_off(void)
+{
+	GPIOB_ResetBits(BSP_LED1_PIN);
+}
+
+
+/*******************************************************************************
+ * @fn     bsp_led2_on
+ *
+ * @brief  Set LED2 to ON (Light ON)
+ *
+ * @return None
+ **/
+void bsp_led2_on(void)
+{
+	GPIOB_SetBits(BSP_LED2_PIN);
+}
+
+/*******************************************************************************
+ * @fn     bsp_led2_off
+ *
+ * @brief  Set LED2 to OFF (Light OFF)
+ *
+ * @return None
+ **/
+void bsp_led2_off(void)
+{
+	GPIOB_ResetBits(BSP_LED2_PIN);
+}
